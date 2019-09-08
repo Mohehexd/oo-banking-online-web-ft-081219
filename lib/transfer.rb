@@ -22,7 +22,7 @@ class Transfer
     else
       @status = "closed"
       "Transaction rejected. Please check your account balance."
-      # binding.pry 
+      binding.pry 
     end
   end
   
